@@ -25,9 +25,26 @@ function sayFirstFruit() {
     console.log(fruits[0]);
     function sayFavFruit() {
         console.log(favFruit);
+        let leastFav;
+        leastFav = fruits[0];
     }
+    // console.log(leastFav);
     sayFavFruit();
 }
 
+// sayFirstFruit();
+
 sayFirstFruit();
 // sayFavFruit();
+
+
+sayHello();
+function sayHello() {
+    let name = "Nick";
+    console.log("Hello " + name);
+}
+
+var newFunction = function() {
+    alert("Does it appear?");
+}
+newFunction();
