@@ -16,3 +16,18 @@ function avgPair(a, b) {
     return (a + b) / 2;
 };
 // after step 11: I expect the order to be first, third, second. This is because the function (which contains 'third text') is invoked before the 'second text' log.
+
+let fruits = ['pear', 'strawberry', 'banana'];
+// let favFruit;
+function sayFirstFruit() {
+    let favFruit = fruits[1];
+    favFruit = fruits[1];
+    console.log(fruits[0]);
+    function sayFavFruit() {
+        console.log(favFruit);
+    }
+    sayFavFruit();
+}
+
+sayFirstFruit();
+// sayFavFruit();
